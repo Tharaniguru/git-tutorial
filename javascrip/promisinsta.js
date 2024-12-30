@@ -6,10 +6,17 @@ async function commentcode(){
 
 
 async function likecode(){
-    return new Promise((like)=>{
-        like("like the post")
+    return new Promise((like,unlike)=>{
+        var l=1
+        if(l==1){
+            like("like the post")
+        }
+        else{
+            unlike("post is unliked")
+        }
+        
     })
-}
+}     
 
 
 async function createpost (){  // anyone in the insta can create the post

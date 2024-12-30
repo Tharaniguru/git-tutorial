@@ -10,6 +10,11 @@ obj={
     'age':'20'
 }
 
+for(var a in obj){
+    console.log(a)
+
+    console.log(obj[a])
+}
 // obj.forEach((key,value)=>{
 //     console.log("key : ",key," Value : ",value)
 // })
